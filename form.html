@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hospital</title>
+    <link rel="stylesheet" href="form.css">    
+</head>
+<body>
+    <signup class="signUp">
+    <h1>Welcome to Livia Hospital Portal</h1>
+    <div class="signup">
+        <button id="L">
+            <a href="#">Login</a>
+        </button><button id="S">
+            <a href="#">Sign Up</a>
+        </button>
+    </div>
+    <form > 
+        <div>
+            <h3 class="H3T0">Name</h3><br>
+            <select name="prefix" class="box_decoration" id="001">
+                <option value="pre">Dr.</option>
+                <option value="pre">Mr.</option>
+                <option value="pre">Mrs.</option>
+                <option value="pre">Ms.</option>
+                <option value="pre">Prof.</option>
+                <option value="pre">Er.</option>
+            </select>
+            <input class="box_decoration" type="text" placeholder="First Name" required>
+            <input class="box_decoration" type="text" placeholder="Last Name" required>
+        </div>
+        <div id="002">
+            <h3 class="H3T0">Hospital Name</h3>
+            <h3 class="H3T0">Contact Number</h3><br>
+            <input class="box_decoration marginright" type="text" placeholder="Hospital Name" required>
+            <select name="country" class="marginright box_decoration" country001>
+                <option value="country_code"> IND +91</option>
+                <option value="country_code">USA +1</option>
+
+            </select>
+            <input  class="box_decoration marginright" type="text" placeholder="Contact Number" maxlength="10" minlength="9" required>
+        </div>
+        <div id="003">
+            <h3 class="H3T1">Email</h3>
+            <h3 class="H3T1">Create Password</h3><br>
+            <input class="box_decoration marginright" type="email" placeholder="Enter email id" required>
+            <input class="box_decoration" type="password" placeholder="Create Password" required>
+        </div>
+             
+        <div id="004">
+            <h3 class="H3T2">Address</h3>
+            <h3 class="H3T2">City</h3><br>
+            <input class="box_decoration marginright" type="Address" placeholder="Address"required>
+            <select name="city" id="city001" class="box_decoration">
+                <option value="city_name">Noida</option>
+                <option value="city_name">Mumbai</option>
+                <option value="city_name">Delhi</option>
+                <option value="city_name">Chennai</option>
+                <option value="city_name">Bengaluru</option>
+                <option value="city_name">Haidrabad</option>
+                <option value="city_name">Patna</option>
+                <option value="city_name">Bhopal</option>
+                <option value="city_name">Indore</option>
+                <option value="city_name">Washington Dc</option>
+                <option value="city_name">Kolkta</option> 
+            </select>
+        </div>
+        <div >
+            <h3 class="H3T0">URL</h3><br>
+            <input  class="box_decoration" id="url" type="url" placeholder="Enter url">
+            <button class=" button box_decoration" type="submit">Verfy Url</button>
+            <p id="para1">.liviaapp.com</p>
+        </div>
+        <div class="last">
+            <p>1/2</p>
+            <button class=" button box_decoration " id="S-N" type="submit">Save & Next</button>
+        </div>
+    </form>
+</signup>
+</body>
+</html>
